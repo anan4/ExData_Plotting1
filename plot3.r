@@ -1,5 +1,7 @@
 ## See data preparation code is in file "plot1.r"
 
+## NOTE: weekdays are in Catalan: dj. = thu, dv. = fri, ds. = sat
+
 # plot 3
 png("plot3.png")
 plot(dset$Time,dset$Sub_metering_1 , type = "n", xlab = "", ylab = "Energy sub metering")
