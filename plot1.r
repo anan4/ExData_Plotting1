@@ -15,6 +15,6 @@ dset$Time <- as.POSIXct(paste(dset$Date,dset$Time), format = "%d/%m/%Y %H:%M:%S"
 dset$Date <- as.Date(dset$Date, format = "%d/%m/%Y")
 
 # plot 1
-png("plot1.png")
+png("plot1.png") # Default values for png() function are the required 480x480 px
 hist(dset$Global_active_power, xlab = "Global Active Power (kilowatts)", main = "Global Active Power", col = "red")
 dev.off()
