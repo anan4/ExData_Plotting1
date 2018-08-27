@@ -1,5 +1,7 @@
 ## See data preparation code in file "plot1.r"
 
+## NOTE: weekdays are in Catalan: dj. = thu, dv. = fri, ds. = sat
+
 # plot 4
 png("plot4.png")
 par(cex.lab=0.7)
